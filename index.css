@@ -1,0 +1,66 @@
+html {
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(#0b678b, #ee5b17);
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn,#unshift-btn {
+    background-color: #2a7e19;
+    border: black 1px solid;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #9b140d;
+    border: black 1px solid;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: #fff;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: black 1px solid;
+    height: 30px;
+    background: white;
+    border-radius: 50px;
+    text-align: center;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    border: none;
+    box-shadow: 1px 2px #000;
+    padding: 4px 20px;
+    border-radius: 30px;
+    margin: 0 4px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px;
+}
+
